@@ -2,9 +2,13 @@ package pkg;
 
 public class GetGreetings {
 
-	public static String getGreetingMsg()
-	{
-		
-		return "This is a Simple Greetinh Message";
+	private String greetingMessage;
+
+	public String getGreetingMessage() {
+		return greetingMessage;
+	}
+
+	public void setGreetingMessage(String greetingMessage) {
+		this.greetingMessage = greetingMessage;
 	}
 }

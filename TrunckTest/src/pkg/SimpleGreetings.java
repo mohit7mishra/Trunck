@@ -3,7 +3,9 @@ package pkg;
 public class SimpleGreetings {
 
 		public static void main(String[] args) {
-			System.out.println(GetGreetings.getGreetingMsg());
+			GetGreetings getGreetings = new GetGreetings();
+			getGreetings.setGreetingMessage("This is a simple greeting msg");
+			System.out.println(getGreetings.getGreetingMessage());
 	}
 
 }
